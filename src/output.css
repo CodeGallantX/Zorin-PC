@@ -611,6 +611,10 @@ video {
   width: 5rem;
 }
 
+.w-60 {
+  width: 15rem;
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
@@ -625,6 +629,10 @@ video {
 
 .font-sans {
   font-family: Poppins;
+}
+
+.font-serif {
+  font-family: Open Sans;
 }
 
 .text-lg {
