@@ -619,6 +619,10 @@ video {
   width: 15rem;
 }
 
+.w-48 {
+  width: 12rem;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -695,6 +699,16 @@ video {
   line-height: 1.75rem;
 }
 
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -728,4 +742,20 @@ video {
 .drop-shadow-xl {
   --tw-drop-shadow: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.placeholder\:indent-1::-moz-placeholder {
+  text-indent: 0.25rem;
+}
+
+.placeholder\:indent-1::placeholder {
+  text-indent: 0.25rem;
+}
+
+.placeholder\:indent-4::-moz-placeholder {
+  text-indent: 1rem;
+}
+
+.placeholder\:indent-4::placeholder {
+  text-indent: 1rem;
 }
