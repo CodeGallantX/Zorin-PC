@@ -7,3 +7,9 @@ function updateClock() {
 
 setInterval(updateClock, 1000);
 updateClock();
+
+
+function showPassword() {
+    let pswd = document.querySelector('#password');
+    pswd.style.display = ''
+}

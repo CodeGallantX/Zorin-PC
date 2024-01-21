@@ -19,17 +19,13 @@
     <div id="login" class="">
         <div class="font-sans  w-screen h-screen blur-sm" style="background: linear-gradient(180deg, rgb(104, 104, 104) 5%, rgb(144, 204, 224), rgb(2, 51, 97));"></div>
 
-        <form action="" method="POST"></form>
-        <div class="rounded-full w-screen flex flex-col gap-3 justify-center items-center">
-            <img class="rounded-full w-24 h-24" src="./Images/codegallantx.webp" alt="">
-            <p class="font-sans text-xl">Code GallantX</p>
-                <div>
-                    <label for="password">
-                        <input class="mt-2 px-3 py-2 bg-white shadow-sm placeholder-slate-400  w-48 border-2 border-solid rounded-lg indent-1 border-black placeholder:indent-1 focus:outline-none hover:border-sky-500 hover:ring-sky-500 block sm:text-sm focus:ring-1" type="password" id="password" placeholder="Password">
-                        <span class="material-symbols-rounded">
-                    visibility
-                        </span>
-                    </label>
+        <div class="mb-4">
+            <label for="password" class="block text-gray-400 text-sm mb-2">Password</label>
+            <div class="relative">
+                <input type="password" id="password" name="password" class="w-full p-2 border rounded-md focus:outline-none focus:border-blue-500">
+                <div id="showPassword" class="absolute inset-y-0 right-0 flex items-center pr-2 cursor-pointer">
+                    <span class="material-symbols-rounded">visibility</span>
+                </div>
             </div>
         </div>
     </div>
