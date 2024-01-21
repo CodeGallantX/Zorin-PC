@@ -759,3 +759,27 @@ video {
 .placeholder\:indent-4::placeholder {
   text-indent: 1rem;
 }
+
+.placeholder\:indent-3::-moz-placeholder {
+  text-indent: 0.75rem;
+}
+
+.placeholder\:indent-3::placeholder {
+  text-indent: 0.75rem;
+}
+
+.placeholder\:indent-2\.5::-moz-placeholder {
+  text-indent: 0.625rem;
+}
+
+.placeholder\:indent-2\.5::placeholder {
+  text-indent: 0.625rem;
+}
+
+.placeholder\:indent-2::-moz-placeholder {
+  text-indent: 0.5rem;
+}
+
+.placeholder\:indent-2::placeholder {
+  text-indent: 0.5rem;
+}
