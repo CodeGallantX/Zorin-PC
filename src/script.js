@@ -9,7 +9,7 @@ setInterval(updateClock, 1000);
 updateClock();
 
 
-//Passord
+//Password
 document.addEventListener('DOMContentLoaded', function () {
     const passwordInput = document.getElementById('password');
     const showPasswordIcon = document.getElementById('showPassword');
