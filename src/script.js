@@ -13,3 +13,11 @@ function showPassword() {
     let pswd = document.querySelector('#password');
     pswd.style.display = ''
 }
+
+const passwordInput = document.getElementById("password");
+const showPasswordToggle = document.getElementById("showPassword");
+
+showPasswordToggle.addEventListener("click", () => {
+    const type = passwordInput.getAttribute("type") === "password" ? "text" : "password";
+    passwordInput.setAttribute("type", type);
+});
