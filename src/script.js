@@ -9,15 +9,17 @@ setInterval(updateClock, 1000);
 updateClock();
 
 
-function showPassword() {
-    let pswd = document.querySelector('#password');
-    pswd.style.display = ''
-}
+//Passord
+document.addEventListener('DOMContentLoaded', function () {
+    const passwordInput = document.getElementById('password');
+    const showPasswordIcon = document.getElementById('showPassword');
 
-const passwordInput = document.getElementById("password");
-const showPasswordToggle = document.getElementById("showPassword");
+    // Function to toggle password visibility
+    function togglePasswordVisibility() {
+        const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+        passwordInput.setAttribute('type', type);
+    }
 
-showPasswordToggle.addEventListener("click", () => {
-    const type = passwordInput.getAttribute("type") === "password" ? "text" : "password";
-    passwordInput.setAttribute("type", type);
+    // Event listener for clicking on the showPassword element
+    showPasswordIcon.addEventListener('click', togglePasswordVisibility);
 });
