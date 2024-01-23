@@ -68,5 +68,6 @@ loginPage = document.querySelector('#lockPage')
 
 
 function unlockScreen() {
-
+    lockScreen.style.opacity = '0';
+    loginPage.style.opacity = '1'
 }
