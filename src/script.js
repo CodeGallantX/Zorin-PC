@@ -37,9 +37,13 @@ function validatePassword() {
     // Check if the entered password matches the expected password
     if (enteredPassword === expectedPassword) {
         console.log("Login successful!");
-        return true; // Allow form submission
+        // Change the background color to black upon successful login
+        document.getElementById("screen").style.background = "black";
+        return false; // Prevent form submission
     } else {
         console.log("Incorrect password. Please try again.");
+        // Show error message
+        alert("Incorrect password. Please try again.");
         return false; // Prevent form submission
     }
 }
