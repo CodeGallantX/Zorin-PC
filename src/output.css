@@ -572,6 +572,14 @@ video {
   right: 0px;
 }
 
+.top-0 {
+  top: 0px;
+}
+
+.left-0 {
+  left: 0px;
+}
+
 .mt-32 {
   margin-top: 8rem;
 }

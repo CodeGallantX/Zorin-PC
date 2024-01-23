@@ -64,10 +64,10 @@ function togglePasswordVisibility() {
 //Show login page
 
 lockScreen = document.querySelector('#lockScreen')
-loginPage = document.querySelector('#lockPage')
+logSec = document.querySelector('#logSec')
 
 
 function unlockScreen() {
     lockScreen.style.opacity = '0';
-    loginPage.style.opacity = '1'
+    logSec.style.display = 'block'
 }
