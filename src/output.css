@@ -607,6 +607,10 @@ video {
   left: auto;
 }
 
+.top-10 {
+  top: 2.5rem;
+}
+
 .-z-10 {
   z-index: -10;
 }
@@ -834,6 +838,10 @@ video {
   font-family: Poppins;
 }
 
+.font-serif {
+  font-family: Open Sans;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -852,6 +860,11 @@ video {
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .leading-6 {
