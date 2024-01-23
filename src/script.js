@@ -60,3 +60,11 @@ function togglePasswordVisibility() {
         hidePasswordIcon.style.display = "none";
     }
 }
+
+//Show login page
+
+
+
+function unlockScreen() {
+
+}

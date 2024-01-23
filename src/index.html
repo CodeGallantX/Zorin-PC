@@ -10,35 +10,35 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <div class="font-sans  w-screen h-screen" style="background: linear-gradient(180deg, rgb(104, 104, 104) 5%, rgb(144, 204, 224), rgb(2, 51, 97));">
+    <div id="lockScreen" class="font-sans  w-screen h-screen" style="background: linear-gradient(180deg, rgb(104, 104, 104) 5%, rgb(144, 204, 224), rgb(2, 51, 97));">
         <div id="time" style="color: rgb(229, 229, 229); font-family: Poppins; font-size: 10rem; text-align: center; padding-top: 8rem; text-shadow: 2px 2px 9px rgba(0, 0, 0, 0.3);" class=""></div>
         
             <p class="text-center text-white text-lg mt-32" style="text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);">Click or press a key to unlock </p>
     </div>
 
-    <div id="login" class="">
-        <div class="font-sans  w-screen h-screen blur-sm" style="background: linear-gradient(180deg, rgb(104, 104, 104) 5%, rgb(144, 204, 224), rgb(2, 51, 97));"></div>
+    <div id="loginPage" class="relative hidden">
+        <div class=" font-sans  w-screen h-screen blur-sm" style="background: linear-gradient(180deg, rgb(104, 104, 104) 5%, rgb(82, 160, 185), rgb(2, 51, 97));"></div>
 
-        <form action="" method="POST"></form>
+        <form action="" method="POST" onsubmit="return validatePassword()" class="absolute top-40">
         <div class="rounded-full w-screen flex flex-col gap-3 justify-center items-center">
             <img class="rounded-full w-24 h-24" src="./Images/codegallantx.webp" alt="">
-            <p class="font-sans text-xl">Code GallantX</p>
+            <p class="font-sans text-xl text-white">Code GallantX</p>
             <div class="relative">
-                <input class="mt-2 px-3 py-2 bg-white shadow-sm placeholder-slate-400 w-48 border-2 border-solid rounded-lg indent-1 border-black placeholder:indent-1 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block sm:text-sm focus:ring-1" 
+                <input class="mt-2 px-3 py-2 bg-white shadow-sm placeholder-slate-400 w-48 border-2 border-solid rounded-lg indent-1 border-gray-600 placeholder:indent-1 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block sm:text-sm focus:ring-1" 
                        type="password" 
                        id="password" 
-                       required
                        placeholder="Password">
                 <span id="showPassword" class="material-symbols-rounded absolute inset-y-0 right-0 flex items-center pr-2 cursor-pointer mt-4" onclick="togglePasswordVisibility()">
                     visibility
                 </span>
 
-                <span id="closeEyes" class="material-symbols-rounded absolute inset-y-0 right-0 flex items-center pr-2 cursor-pointer mt-4">
+                <span id="hidePassword" class="material-symbols-rounded absolute inset-y-0 right-0 flex items-center pr-2 cursor-pointer mt-4" style="display: none;" onclick="togglePasswordVisibility()">
                     visibility_off
                 </span>
             </div>
             <button type="submit" class="w-48 bg-sky-900 text-white px-20 py-1 rounded-lg hover:bg-sky-700 transition cursor-pointer">Login</button>
         </div>
+        </form>
     </div>
 </body>
 </html>
