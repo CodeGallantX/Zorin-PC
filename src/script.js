@@ -32,7 +32,7 @@ function validatePassword() {
     var enteredPassword = document.getElementById("password").value;
 
     // Expected password
-    var expectedPassword = "123456";
+    var expectedPassword = "adMin";
 
     // Check if the entered password matches the expected password
     if (enteredPassword === expectedPassword) {
@@ -44,6 +44,7 @@ function validatePassword() {
         console.log("Incorrect password. Please try again.");
         // Show error message
         alert("Incorrect password. Please try again.");
+        alert("Hint: adMin")
         return false; // Prevent form submission
     }
 }
