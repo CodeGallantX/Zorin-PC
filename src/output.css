@@ -772,6 +772,10 @@ video {
   transition-duration: 150ms;
 }
 
+.ease-in {
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+
 .placeholder\:indent-1::-moz-placeholder {
   text-indent: 0.25rem;
 }
