@@ -592,6 +592,10 @@ video {
   right: 0px;
 }
 
+.m-auto {
+  margin: auto;
+}
+
 .ml-52 {
   margin-left: 13rem;
 }
