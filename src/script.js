@@ -63,6 +63,8 @@ function togglePasswordVisibility() {
 
 //Show login page
 
+lockScreen = document.querySelector('#lockScreen')
+loginPage = document.querySelector('#lockPage')
 
 
 function unlockScreen() {
