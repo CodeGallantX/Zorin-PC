@@ -591,6 +591,14 @@ video {
   bottom: 0px;
 }
 
+.left-40 {
+  left: 10rem;
+}
+
+.left-96 {
+  left: 24rem;
+}
+
 .mt-32 {
   margin-top: 8rem;
 }
