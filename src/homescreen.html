@@ -9,13 +9,19 @@
 </head>
 <body style="margin: 0; padding: 0;">
     <style>
+        body {
+            overflow: hidden;
+        }
+
         #mainPatch {
             background: rgba(0,0,0,0.4);
-            transition: ease 0.2s;
+            transform: translateY(50px);
+            transition: ease-out 0.4s;
         }
 
         #mainPatch:hover {
             background: rgba(0,0,0, 0.7);
+            transform: translateY(0);
         }
     </style>
     <div class="absolute">
