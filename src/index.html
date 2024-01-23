@@ -19,7 +19,7 @@
     <div id="loginPage" class="relative">
         <div class=" font-sans  w-screen h-screen blur-sm" style="background: linear-gradient(180deg, rgb(104, 104, 104) 5%, rgb(82, 160, 185), rgb(2, 51, 97)); filter: blur(20px);"></div>
 
-        <form id="loginForm" action="" method="POST" onsubmit="return validatePassword()" class="absolute top-40">
+        <form id="loginForm" action="" method="GET" onsubmit="return validatePassword()" class="absolute top-40">
         <div class="rounded-full w-screen flex flex-col gap-3 justify-center items-center">
             <img class="rounded-full w-24 h-24" src="./Images/codegallantx.webp" alt="">
             <p class="font-sans text-xl text-white">Code GallantX</p>
@@ -37,7 +37,7 @@
                     visibility_off
                 </span>
             </div>
-            <button type="submit" class="w-48 bg-sky-900 text-white px-20 py-1 rounded-lg hover:bg-sky-700 transition cursor-pointer">Login</button>
+            <button type="submit" id="loginButton" class="w-48 bg-sky-900 text-white px-20 py-1 rounded-lg hover:bg-sky-700 transition cursor-pointer">Login</button>
         </div>
         </form>
     </div>
