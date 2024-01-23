@@ -26,24 +26,30 @@
             transform: translateY(0);
         }
 
-        #widget {
-            background: rgba(0,0,0,0.5);
+        .widget {
+            background: none;
             transform: translateY(-17px);
             transition: ease-out 0.4s;
         }
 
-        #widget:hover {
+        .widget:hover {
             background: rgba(0,0,0, 0.8);
             
         }
     </style>
     <div class="absolute">
     <img class="w-screen h-screen brightness-75" src="./Images/fall-scenes-t1xhd1jeh2834i3i.webp" alt="">
-    <div class=" absolute bottom-0 left-96 ml-44 rounded-full h-24 w-64 cursor-pointer" id="mainPatch">
-        <div class="flex flex-row justify-start items-center py-5 px-10">
-            <span id="widget" style="background: rgba(0,0,0,0.3);font-size: 3rem;" class="material-symbols-rounded text-white p-6">
+    <div class=" absolute bottom-0 left-96 ml-40 rounded-full h-24 w-72 cursor-pointer" id="mainPatch">
+        <div class="flex flex-row justify-start items-center py-5 px-2">
+            <span style="background: rgba(0,0,0,0.3);font-size: 3rem;" class="widget material-symbols-rounded text-white p-6 rounded-full">
                 widgets
-                </span>
+            </span>
+            <span style="background: rgba(0,0,0,0.3);font-size: 3rem;" class="widget material-symbols-rounded text-white p-6 rounded-full">
+                folder
+            </span>
+            <span style="background: rgba(0,0,0,0.3);font-size: 3rem;" class="widget material-symbols-rounded text-white p-6 rounded-full">
+                stadia_controller
+            </span>
         </div>
     </div>
 
