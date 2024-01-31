@@ -85,5 +85,5 @@ function openMenu() {
 }
 
 function hideMenu() {
-    menu.style.top = '670px';
+    menu.style.bottom = '670px';
 }
