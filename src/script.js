@@ -83,3 +83,8 @@ function unlockScreen() {
 
 // show menu
 const menu = document.querySelector('#menu');
+
+function openMenu() {
+    menu.style.opacity = '1';
+    menu.style. = '1';
+}
