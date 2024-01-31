@@ -81,11 +81,9 @@ function unlockScreen() {
 
 function openMenu() {
     const menu = document.getElementById('menu');
-    menu.style.top = '0%';
-    menu.style.zIndex = '50';  // Adjust this value based on your layout
+    menu.style.top = '0';
 }
 
 function hideMenu() {
-    menu.style.top = '100%';
-    menu.style.zIndex = '-50';  // Adjust this value based on your layout
+    menu.style.top = '670px';
 }
