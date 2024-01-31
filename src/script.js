@@ -79,12 +79,9 @@ function unlockScreen() {
 
 
 
-// show menu
-const menu = document.querySelector('#menu');
-menu.style.opacity = '0';
-
 function openMenu() {
+    const menu = document.getElementById('menu');
     menu.style.opacity = '1';
     menu.style.top = '0';
-    menu.style.zIndex = '10';
+    menu.style.zIndex = '50';  // Adjust this value based on your layout
 }
