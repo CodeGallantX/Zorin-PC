@@ -81,7 +81,7 @@ function unlockScreen() {
 
 function openMenu() {
     const menu = document.getElementById('menu');
-    menu.style.top = '0';
+    menu.style.bottom = '0';
 }
 
 function hideMenu() {
