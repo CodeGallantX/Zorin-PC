@@ -87,5 +87,5 @@ menu.style.opacity = '0';
 function openMenu() {
     menu.style.opacity = '1';
     menu.style.top = '0';
-    menu.style.zIndex = '1;
+    menu.style.zIndex = '1';
 }
