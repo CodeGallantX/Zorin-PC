@@ -82,3 +82,4 @@ function unlockScreen() {
 
 
 // show menu
+const menu = document.querySelector('#menu');
