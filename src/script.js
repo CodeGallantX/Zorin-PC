@@ -79,7 +79,6 @@ function unlockScreen() {
 
 
 
-
 // show menu
 const menu = document.querySelector('#menu');
 menu.style.opacity = '0';
@@ -87,5 +86,5 @@ menu.style.opacity = '0';
 function openMenu() {
     menu.style.opacity = '1';
     menu.style.top = '0';
-    menu.style.zIndex = '1';
+    menu.style.zIndex = '10'; // Use a value greater than 1 based on your needs
 }
