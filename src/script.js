@@ -75,11 +75,10 @@ logSec = document.querySelector('#logSec')
 function unlockScreen() {
     lockScreen.style.opacity = '0';
     logSec.style.display = 'block'
-
-    
-
+}
 
 
 
 
-    // showmenu
+
+// show menu
